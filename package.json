@@ -1,0 +1,21 @@
+{
+  "name": "api-specs-zkill",
+  "version": "0.0.1",
+  "description": "The zKillboard API provides access to killmails, statistics, and historical data.  It supports multiple endpoints, including real-time WebSocket/RedisQ services,  killmail history, and entity-specific statistics. ",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "oas3-tools": "^2.2.3"
+  },
+  "author": "Dexomus Viliana"
+}
