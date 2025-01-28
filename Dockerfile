@@ -14,7 +14,7 @@ RUN npm install --production
 COPY . .
 
 # Build the application if required (uncomment if your app needs building)
-# RUN npm run build
+RUN npm run build
 
 # Expose the port the app runs on (default for Node.js apps)
 EXPOSE 8080
