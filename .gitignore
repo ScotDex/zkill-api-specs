@@ -13,13 +13,6 @@ logs/
 .env
 .env.*
 
-# Swagger Codegen generated files (customize based on your output directory)
-generated/
-swagger.json
-swagger.yaml
-openapi.json
-openapi.yaml
-
 # Build artifacts
 dist/
 build/
